@@ -1,12 +1,16 @@
+
+
 .formulario {
   background-color: white;
   padding: 16px;
   border-radius: 4px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+
 }
 .formulario_titulo {
   text-transform: capitalize;
   color: rebeccapurple;
+  text-align: center;
 }
 .form-field {
   width: 100%;
@@ -15,12 +19,12 @@
   display: flex;
   flex-direction: column;
 }
-.form-field__label {
+.form-field_label {
   color: inherit;
   margin-bottom: 4px;
   font-size: 12px;
 }
-.form-field__input {
+.form-field_input {
   padding: 8px;
   border-radius: 4px;
   color: inherit;
